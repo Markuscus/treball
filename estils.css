@@ -1,0 +1,79 @@
+
+*{
+    padding : 0;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+nav ul {
+    background-color: #757575;
+    width: 100px;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: wheat;
+    padding: 20px;
+    width: 150px;
+}
+/*background color hover per quan pasem el ratoli per demunt cambie el color*/
+nav li:hover {
+    background-color: black;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.contenido {
+  display: flex;
+  margin: 60 px;
+}
+
+.articulos {
+  width: 80%;
+  border-right: 3px solid black;
+}
+
+.secciones {
+  display: flex;
+  align-items: center;
+  padding: 40px;
+}
+
+body {
+  margin: 0px;
+  padding: 0%;
+  background: url(fondo1.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  color: wheat;
+  margin-top: 40px;
+}
+
+footer p {
+  text-align: center;
+  padding: 50px;
+}
